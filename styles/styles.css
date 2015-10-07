@@ -1,0 +1,35 @@
+table {
+  border-collapse: collapse;
+}
+
+thead {
+  border-bottom: 2px solid;
+}
+
+thead tr {
+  background: #EB8;
+}
+
+tbody td {
+  text-align: center;
+}
+
+.lighting_col {
+  background: #99CCFF;
+}
+
+.lighting_cell {
+  background: #FFFF00;
+}
+
+tbody tr:nth-child(odd) {
+  background: #EEE;
+}
+
+tbody tr:nth-child(even) {
+  background: #FFFFFF;
+}
+
+tbody tr:hover {
+  background: #99CCFF;
+}
